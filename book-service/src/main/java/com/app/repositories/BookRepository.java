@@ -1,7 +1,9 @@
 package com.app.repositories;
 
-import com.app.entities.CambioEntity;
+import com.app.entity.BookEntity;
 import org.springframework.data.mongodb.repository.MongoRepository;
+import org.springframework.stereotype.Repository;
 
-public interface BookRepository extends MongoRepository<CambioEntity,Long> {
-}
+
+@Repository
+public interface BookRepository extends MongoRepository<BookEntity,String>{}

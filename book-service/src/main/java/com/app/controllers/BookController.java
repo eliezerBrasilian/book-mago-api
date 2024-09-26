@@ -1,34 +1,25 @@
 package com.app.controllers;
 
 import com.app.records.Book;
+import com.app.repositories.BookRepository;
+import com.app.services.BookService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.core.env.Environment;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
-
-import java.math.BigDecimal;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("cambio-service")
+@RequestMapping("book-service")
 public class BookController {
+    @Autowired
+    private BookService bookService;
 
     @Autowired
-    Environment environment;
+    private BookRepository bookRepository;
 
-    @GetMapping("")
-    public Book getCambio(
-
+    @GetMapping("{id}/{to_currency}")
+    public Book getBook(
+        @PathVariable(value = "id") String id,
+        @PathVariable(value = "to_currency") String toCurrency
     ){
-        var port = environment.getProperty("local.server.port");
-
-        return new Book(
-                1,
-                "BRL",
-                "USD",
-                BigDecimal.valueOf(5.73),
-                BigDecimal.valueOf(10),
-                port
-        );
+        return bookService.getBook(id,toCurrency);
     }
 }
