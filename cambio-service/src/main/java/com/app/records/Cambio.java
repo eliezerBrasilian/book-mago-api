@@ -1,13 +1,11 @@
 package com.app.records;
 
-import java.math.BigDecimal;
-
 public record Cambio(
-        int id,
+        String id,
         String from,
         String to,
-        BigDecimal conversionFactor,
-        BigDecimal convertedValue,
+        Double conversionFactor,
+        Double convertedValue,
         String environment
 ) {
 

@@ -2,7 +2,7 @@ package com.app.records;
 
 import java.math.BigDecimal;
 
-public record Cambio(
+public record Book(
         int id,
         String from,
         String to,
