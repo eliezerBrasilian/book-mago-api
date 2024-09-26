@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f44c5a9c-7e83-44fd-b7a4-8f4ed959163c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/book-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/book-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-service/src/main/java/com/example/demo/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/cambio-service/src/main/java/com/app/CambioApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-service/src/main/java/com/example/demo/exceptions/ExceptionResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-service/src/main/java/com/exceptions/ExceptionResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-service/src/main/java/com/example/demo/exceptions/UnsupportedMathOperationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-service/src/main/java/com/exceptions/UnsupportedMathOperationException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-service/src/main/java/com/example/demo/exceptions/handler/CustomizedResponseEntityExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-service/src/main/java/com/exceptions/handler/CustomizedResponseEntityExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/book-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cambio-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cambio-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cambio-service/src/main/java/com/example/demo/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-service/src/main/java/com/app/BookApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cambio-service/src/main/java/com/example/demo/exceptions/ExceptionResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/cambio-service/src/main/java/com/exceptions/ExceptionResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cambio-service/src/main/java/com/example/demo/exceptions/UnsupportedMathOperationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/cambio-service/src/main/java/com/exceptions/UnsupportedMathOperationException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cambio-service/src/main/java/com/example/demo/exceptions/handler/CustomizedResponseEntityExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/cambio-service/src/main/java/com/exceptions/handler/CustomizedResponseEntityExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cambio-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cambio-service/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;eliezerBrasilian&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/eliezerBrasilian/book-mago-api.git&quot;,
+    &quot;accountId&quot;: &quot;6c75842c-6e74-4cbb-bad6-0de959770655&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2maQ4Yb61FZyu2Fgq9jI8d8WFkG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Eliezer\MINHA\DEV\JAVA\SPRING-BOOT\MICRO-SERVIÇOS\book-mago-api\cambio-service\src\main\java\com\app" />
+      <recent name="C:\Users\Eliezer\MINHA\DEV\JAVA\SPRING-BOOT\MICRO-SERVIÇOS\book-mago-api\cambio-service\src\main\java\com" />
+      <recent name="C:\Users\Eliezer\MINHA\DEV\JAVA\SPRING-BOOT\MICRO-SERVIÇOS\book-mago-api\book-service\src\main\java\com" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f44c5a9c-7e83-44fd-b7a4-8f4ed959163c" name="Changes" comment="" />
+      <created>1727312019022</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1727312019022</updated>
+    </task>
+    <servers />
+  </component>
+</project>
