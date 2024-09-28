@@ -4,7 +4,7 @@
 
 ## Descrição
 
-A **Detona Movies API** é uma API gratuita desenvolvida para fornecer uma lista de livros, e nela você realiza conversão de preços para diferentes moedas.
+Esta API gratuita é constituída de dois microserviços que se complementam em exibir livros e converter seus preços de uma moeda específica para outra.
 Existem dois microserviços rodando:
 1. book-service
 2. cambio-service
