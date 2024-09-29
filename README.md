@@ -11,6 +11,11 @@ Existem dois microserviços rodando:
 
 É possível inserir mais cambios e livros. Para isto é necessário informar uma X-API-KEY válida no header da requisição:  
 
+A documentação completa da API está disponível via Swagger, facilitando a exploração e o teste dos endpoints.  
+Acesse a documentação completa:  
+[book-service-documentation](http://191.252.92.39:8000/book-service-documentation/swagger-ui/index.html)
+[cambio-service-documentation](http://191.252.92.39:8001/cambio-service-documentation/swagger-ui/index.html)
+
 ### Alguns endpoints abaixo
 
 ### `GET /book-service/list`
@@ -70,6 +75,11 @@ curl -X GET "http://191.252.92.39:8000/cambio-service/list" -H "accept: applicat
 }
 ```
 
+### Tecnologias utilizadas
+- MongoDB
+- OpenFeign
+- SpringBoot
+- Swagger Open API
 
 
 ## Instalação e Execução
